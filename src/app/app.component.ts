@@ -19,11 +19,11 @@ export class AppComponent {
     //Especificamos que o tipo de retorno é um array de produtos
 	listarTodosProdutos() {
     	this.http.get<Produto[]>(`${this.apiUrl}/produtos`)
-        	.subscribe({
-				next: (v) => console.log(v),
-				error: () => console.error(`Página não encontrada - ${HttpStatusCode.NotFound}`),
-				complete: () => console.info("Operação completa")
-			});
+        .subscribe({
+			next: (v) => console.log(v),
+			error: () => console.error(`Página não encontrada - ${HttpStatusCode.NotFound}`),
+			complete: () => console.info("Operação completa")
+	});
      }
    
      //O tipo de retorno é apenas <Produto[]>, posto que apenas um item é retornado
