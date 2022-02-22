@@ -2,26 +2,20 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
-## Development server
+## Descrição do projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Nesse projeto, foi desenvolvido uma aplicação simples para fazer requisições HTTP a uma API. Como a ideia do projeto é fazer requisições HTTP utilizando o módulo HttpClient do Angular, a nossa API terá apenas uma base de dados, construída  a partir do módulo que instalamos, o json-server, que permite criar um array de objetos para se consumido pela aplicação.
 
-## Code scaffolding
+## Executar aplicação Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Primeiro clonar o projeto com o comando git clone <caminho-projeto>
 
-## Build
+Acessar a pasta principal do projeto ./src e rodar o comando `npm install` para instalar as dependências do projeto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+No passo seguinte, iniciar a aplicação com o comando `ng serve`.
+  
+Após o passo acima, acessar o endereço no navegador: http://localhost:4200/
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Executar a API
+  
