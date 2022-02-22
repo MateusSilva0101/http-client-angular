@@ -4,8 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Descrição do projeto
 
-Nesse projeto, foi desenvolvido uma aplicação simples para fazer requisições HTTP a uma API. Como a ideia do projeto é fazer requisições HTTP utilizando o módulo HttpClient do Angular, a nossa API terá apenas uma base de dados, construída  a partir do módulo que instalamos, o json-server, que permite criar um array de objetos para ser consumido pela aplicação.
-
+Nesse projeto, foi desenvolvido uma aplicação simples para fazer requisições HTTP a uma API. Como a ideia do projeto é fazer requisições HTTP utilizando o módulo HttpClient do Angular, a nossa API terá uma base de dados, construída a partir do módulo json-server, que permite criar um array de objetos para ser consumido pela aplicação Angular.
 
 ![req1](https://user-images.githubusercontent.com/99999332/155140647-619a0576-782f-4abf-819b-d09074c0d958.png)
 
