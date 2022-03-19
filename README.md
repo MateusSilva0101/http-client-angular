@@ -21,7 +21,7 @@ Após o passo acima, acessar o endereço no navegador: `http://localhost:4200/`
 
 ## Executar a API
 
-Para executar a API abrir um novo terminal ou cmd do Windows e executar: `json-server db.json`
+Para executar a API abrir um novo terminal ou cmd do Windows e executar: `npm run api`
 
 O próximo passo é acessar a url no navegador: `http://localhost:3000/produtos`
 
